@@ -1,0 +1,299 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #f7f7ffe5;
+   
+ }
+
+/* LOGO */
+.logo{
+    height:57px ;
+    width:120px ;
+}
+
+/* NAVIGATION*/
+.nav-link{
+    color: blue !important;
+    font-weight: bold !important;
+}
+
+.nav-item{
+    padding-left: 1.7rem;
+}
+
+.nav-link:hover{
+    color: whitesmoke !important;
+    font-weight: bold !important;
+    background-color: blue !important;
+    border: 1px solid blue !important;
+}
+
+.background-img{
+    background-image: url('../img/image.png');
+}
+    
+
+/* SLIDER*/
+.carousel-caption{
+    position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+    color:rgb(8, 8, 197);
+    text-shadow: 2.5px 1px #999797;
+}
+
+.carousel-caption h1{
+    font-weight: bolder;
+}
+
+.btn{
+    margin-top: 50px;
+    border: 1px solid blue;
+    color: blue;
+}
+
+.btn:hover{
+    background-color: blue;
+    color: whitesmoke;
+    border: none;
+}
+
+.carousel-item img{
+    background-size: 100% 100%; 
+    text-align: center;
+    max-height: 1000px;
+    min-width: 900px;
+    }
+
+/* SECOUND LAYER */
+.web-design{
+    background-color: #2424e7;
+    padding: 2.5rem;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-top: 5px;
+    margin-bottom:10px; 
+    color: whitesmoke;
+}
+
+.web-market{
+    background-color: #3a3939;
+    padding: 2.5rem;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-top: 5px;
+    margin-bottom:10px; 
+    color: #f3f3f5;
+}
+
+.fas, .fab{
+    font-size: 3.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.fa-desktop, .fa-users{
+    color: #3a3939;
+}
+
+.head-text{
+    padding-bottom: 1.5rem;
+}
+
+.web-design p{
+    color: #000000;
+}
+
+.bnt2L{
+    background-color: #3a3939;
+    color: #f5f5f5;
+    font-size: 16px;
+}
+
+.bnts2L{
+    background-color: blue;
+    color: #f5f5f5;
+    font-size: 16px;
+}
+
+.bnt2L:hover{
+    background-color: #3a3939;
+    color: blue;
+}
+
+.bnts2L:hover{
+    background-color: blue;
+    color: #3a3939;
+    font-size: 16px;
+}
+/* HOME DESIGN*/
+#home-design{
+    margin-top: 4rem;
+}
+
+.head3{
+    color: #0000ff;
+}
+
+/*kinds 0f website 1*/
+.kind-of-site{
+    margin-top: 4rem;
+    padding: 0rem 5.5rem 0rem 5.5rem;
+  
+}
+
+.standard{
+    background-color: #ffffff;
+    margin-left: -15px ; 
+    margin-right: -15px ;
+    padding: 4rem 1rem 4rem 1rem; /* (TOP, RIGHT, BOTTOM, LEFT)*/
+   }
+
+.standard2{
+    background-color: #f1f0f0;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 4rem 1rem 4rem 1rem; /* (TOP, RIGHT, BOTTOM, LEFT)*/
+}
+
+.kind-of-site button{
+    font-size: 14px;
+    background-color: #0000ff;
+    color: #f1f0f0;
+}
+
+.kind-of-site button:hover{
+    color: #3a3939;
+}
+
+.kind-of-site span{
+    color: #0000ff;
+} 
+
+/*FOURTH LAYER (HOW IT WORKS)*/
+.how-it-works{
+    margin-top: 5rem;
+}
+
+.head-works{
+    margin-bottom: 5rem;
+    color: #0000ff;
+}
+
+.works135{
+    background-color:#2424e7; 
+}
+
+.works24{
+    background-color:#3a3939;
+    color: #f1f0f0; 
+}
+
+.works{
+    padding: 2rem;
+}
+
+.works135 h6 {
+   padding-bottom: 1rem; 
+   color: #f1f0f0;
+}
+
+.works135 P {
+    color: #000000;
+ }
+
+.works24 h6{
+    padding-bottom: 1rem; 
+}
+
+.works135 span{
+   font-size: 1.8rem;
+   color: #f1f0f0; 
+   background-color:#3a3939;
+   border-radius: 50%;
+   padding: 10px; 
+   margin-bottom: 2rem;  
+}
+
+.works24 span{
+    font-size: 1.8rem;
+   color:#3a3939 ; 
+   background-color:#f1f0f0;
+   border-radius: 50%;
+   padding: 10px; 
+   margin-bottom: 2rem; 
+}
+
+/*FIVETH LAYER (WHY CHOOSE US)*/
+.why-us{
+    margin-top: 5rem;
+    color: #2424e7; 
+}
+
+.why-us h4{
+   margin-bottom: 2rem ;  
+}
+
+.why-us p{
+    color: #000000 ;  
+}
+
+.works24 p{
+    color: #f1f0f0;
+}
+
+/*SIXED LAYER (QUESTIONS ASKED)*/
+.questions{
+    margin-top: 4rem;
+}
+
+.head-questions{
+    color: #2424e7;
+}
+
+.head-questions p{
+    color: #000000;
+    margin: 2rem 0rem 3rem 0rem; /*(top right bottom left)*/
+}
+
+.question-line1{
+    border: 1px solid #fffefe;
+    background-color: #fffefe;
+    max-width: 35%;
+    margin-bottom: 4rem;
+}
+
+.question-line2{
+    border: 1px solid #fffefe;
+    background-color: #fffefe;
+    max-width: 35%;
+    margin-bottom: 4rem;
+}
+
+.inner-questions a{
+    text-decoration: none;
+    color: #000000;
+
+}
+
+.inner-questions{
+    margin: 20px -30px -35px 0px;
+ 
+}
+
+.fa-caret-square-down{
+    margin-right: 1rem;
+    color: #2424e7;
+    font-size: 20px;
+}
+
+.words{
+   padding: 0px 0px 40px 0px; 
+  
+}
+
+.line{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
